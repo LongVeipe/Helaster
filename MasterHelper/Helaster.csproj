@@ -171,6 +171,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\Account.cs" />
     <Compile Include="Data\Employees.cs" />
     <Compile Include="Data\Jobs.cs" />
     <Compile Include="FormAccount.cs">

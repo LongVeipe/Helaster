@@ -50,8 +50,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panelName = new System.Windows.Forms.Panel();
+            this.labelName = new System.Windows.Forms.Label();
             this.textBoxName = new Guna.UI2.WinForms.Guna2TextBox();
+            this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAvatar)).BeginInit();
             this.panel1.SuspendLayout();
@@ -64,6 +67,8 @@
             this.panel3.SuspendLayout();
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.panelName.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -87,10 +92,11 @@
             this.panel1.Controls.Add(this.panel6);
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel3);
+            this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(150, 247);
+            this.panel1.Location = new System.Drawing.Point(150, 187);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(527, 346);
+            this.panel1.Size = new System.Drawing.Size(527, 406);
             this.panel1.TabIndex = 1;
             // 
             // panel6
@@ -99,10 +105,10 @@
             this.panel6.Controls.Add(this.panel7);
             this.panel6.Controls.Add(this.guna2CirclePictureBox3);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.Location = new System.Drawing.Point(0, 172);
+            this.panel6.Location = new System.Drawing.Point(0, 253);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(527, 86);
-            this.panel6.TabIndex = 7;
+            this.panel6.TabIndex = 17;
             // 
             // linkLabelEmail
             // 
@@ -172,10 +178,10 @@
             this.panel4.Controls.Add(this.panel5);
             this.panel4.Controls.Add(this.guna2CirclePictureBox2);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 86);
+            this.panel4.Location = new System.Drawing.Point(0, 167);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(527, 86);
-            this.panel4.TabIndex = 6;
+            this.panel4.TabIndex = 16;
             // 
             // linkLabelBirthDay
             // 
@@ -245,10 +251,10 @@
             this.panel3.Controls.Add(this.panel8);
             this.panel3.Controls.Add(this.guna2CirclePictureBox1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Location = new System.Drawing.Point(0, 81);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(527, 86);
-            this.panel3.TabIndex = 5;
+            this.panel3.TabIndex = 15;
             // 
             // linkLabelGender
             // 
@@ -312,6 +318,67 @@
             this.guna2CirclePictureBox1.TabIndex = 2;
             this.guna2CirclePictureBox1.TabStop = false;
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.panelName);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(527, 81);
+            this.panel2.TabIndex = 14;
+            // 
+            // panelName
+            // 
+            this.panelName.Controls.Add(this.labelName);
+            this.panelName.Controls.Add(this.textBoxName);
+            this.panelName.Controls.Add(this.iconPictureBox2);
+            this.panelName.Location = new System.Drawing.Point(76, 2);
+            this.panelName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelName.Name = "panelName";
+            this.panelName.Size = new System.Drawing.Size(380, 76);
+            this.panelName.TabIndex = 14;
+            // 
+            // labelName
+            // 
+            this.labelName.AutoSize = true;
+            this.labelName.Font = new System.Drawing.Font("Cambria", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelName.Location = new System.Drawing.Point(23, 17);
+            this.labelName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelName.Name = "labelName";
+            this.labelName.Size = new System.Drawing.Size(236, 32);
+            this.labelName.TabIndex = 14;
+            this.labelName.Text = "Nguyễn Đình Long";
+            // 
+            // textBoxName
+            // 
+            this.textBoxName.BackColor = System.Drawing.SystemColors.Control;
+            this.textBoxName.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBoxName.DefaultText = "Nguyễn Đình Long";
+            this.textBoxName.DisabledState.BorderColor = System.Drawing.Color.Black;
+            this.textBoxName.DisabledState.FillColor = System.Drawing.SystemColors.Control;
+            this.textBoxName.DisabledState.ForeColor = System.Drawing.Color.Black;
+            this.textBoxName.DisabledState.Parent = this.textBoxName;
+            this.textBoxName.DisabledState.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.textBoxName.FillColor = System.Drawing.SystemColors.Control;
+            this.textBoxName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.textBoxName.FocusedState.Parent = this.textBoxName;
+            this.textBoxName.Font = new System.Drawing.Font("Cambria", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxName.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.textBoxName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.textBoxName.HoverState.Parent = this.textBoxName;
+            this.textBoxName.Location = new System.Drawing.Point(20, 5);
+            this.textBoxName.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.textBoxName.Name = "textBoxName";
+            this.textBoxName.PasswordChar = '\0';
+            this.textBoxName.PlaceholderText = "";
+            this.textBoxName.SelectedText = "";
+            this.textBoxName.SelectionStart = 16;
+            this.textBoxName.ShadowDecoration.Parent = this.textBoxName;
+            this.textBoxName.Size = new System.Drawing.Size(280, 60);
+            this.textBoxName.TabIndex = 13;
+            this.textBoxName.Visible = false;
+            // 
             // iconPictureBox2
             // 
             this.iconPictureBox2.BackColor = System.Drawing.SystemColors.Control;
@@ -320,42 +387,13 @@
             this.iconPictureBox2.IconColor = System.Drawing.SystemColors.ControlText;
             this.iconPictureBox2.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPictureBox2.IconSize = 24;
-            this.iconPictureBox2.Location = new System.Drawing.Point(552, 194);
+            this.iconPictureBox2.Location = new System.Drawing.Point(344, 24);
             this.iconPictureBox2.Name = "iconPictureBox2";
             this.iconPictureBox2.Size = new System.Drawing.Size(24, 26);
             this.iconPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.iconPictureBox2.TabIndex = 10;
+            this.iconPictureBox2.TabIndex = 12;
             this.iconPictureBox2.TabStop = false;
-            // 
-            // textBoxName
-            // 
-            this.textBoxName.BackColor = System.Drawing.SystemColors.Control;
-            this.textBoxName.BorderThickness = 0;
-            this.textBoxName.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textBoxName.DefaultText = "Nguyễn Đình Long";
-            this.textBoxName.DisabledState.BorderColor = System.Drawing.Color.Black;
-            this.textBoxName.DisabledState.FillColor = System.Drawing.SystemColors.Control;
-            this.textBoxName.DisabledState.ForeColor = System.Drawing.Color.Black;
-            this.textBoxName.DisabledState.Parent = this.textBoxName;
-            this.textBoxName.DisabledState.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.textBoxName.Enabled = false;
-            this.textBoxName.FillColor = System.Drawing.SystemColors.Control;
-            this.textBoxName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.textBoxName.FocusedState.Parent = this.textBoxName;
-            this.textBoxName.Font = new System.Drawing.Font("Cambria", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxName.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.textBoxName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.textBoxName.HoverState.Parent = this.textBoxName;
-            this.textBoxName.Location = new System.Drawing.Point(295, 179);
-            this.textBoxName.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.textBoxName.Name = "textBoxName";
-            this.textBoxName.PasswordChar = '\0';
-            this.textBoxName.PlaceholderText = "";
-            this.textBoxName.SelectedText = "";
-            this.textBoxName.SelectionStart = 16;
-            this.textBoxName.ShadowDecoration.Parent = this.textBoxName;
-            this.textBoxName.Size = new System.Drawing.Size(249, 50);
-            this.textBoxName.TabIndex = 11;
+            this.iconPictureBox2.Click += new System.EventHandler(this.iconPictureBox2_Click);
             // 
             // guna2Elipse1
             // 
@@ -367,8 +405,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(827, 613);
-            this.Controls.Add(this.textBoxName);
-            this.Controls.Add(this.iconPictureBox2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBoxAvatar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -390,6 +426,9 @@
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panelName.ResumeLayout(false);
+            this.panelName.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).EndInit();
             this.ResumeLayout(false);
 
@@ -399,6 +438,7 @@
 
         private Guna.UI2.WinForms.Guna2CirclePictureBox pictureBoxAvatar;
         private System.Windows.Forms.Panel panel1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.LinkLabel linkLabelEmail;
         private System.Windows.Forms.Panel panel7;
@@ -417,8 +457,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
-        private FontAwesome.Sharp.IconPictureBox iconPictureBox2;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panelName;
         private Guna.UI2.WinForms.Guna2TextBox textBoxName;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private FontAwesome.Sharp.IconPictureBox iconPictureBox2;
+        private System.Windows.Forms.Label labelName;
     }
 }
