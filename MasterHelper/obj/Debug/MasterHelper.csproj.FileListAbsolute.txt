@@ -1,0 +1,17 @@
+C:\Users\LongVeipe\Desktop\winform\MasterHelper\MasterHelper\bin\Debug\MasterHelper.exe.config
+C:\Users\LongVeipe\Desktop\winform\MasterHelper\MasterHelper\bin\Debug\MasterHelper.exe
+C:\Users\LongVeipe\Desktop\winform\MasterHelper\MasterHelper\bin\Debug\MasterHelper.pdb
+C:\Users\LongVeipe\Desktop\winform\MasterHelper\MasterHelper\bin\Debug\MetroSet UI.dll
+C:\Users\LongVeipe\Desktop\winform\MasterHelper\MasterHelper\obj\Debug\MasterHelper.csprojAssemblyReference.cache
+C:\Users\LongVeipe\Desktop\winform\MasterHelper\MasterHelper\obj\Debug\MasterHelper.Properties.Resources.resources
+C:\Users\LongVeipe\Desktop\winform\MasterHelper\MasterHelper\obj\Debug\MasterHelper.csproj.GenerateResource.cache
+C:\Users\LongVeipe\Desktop\winform\MasterHelper\MasterHelper\obj\Debug\MasterHelper.csproj.CoreCompileInputs.cache
+C:\Users\LongVeipe\Desktop\winform\MasterHelper\MasterHelper\obj\Debug\MasterHelper.csproj.CopyComplete
+C:\Users\LongVeipe\Desktop\winform\MasterHelper\MasterHelper\obj\Debug\MasterHelper.exe
+C:\Users\LongVeipe\Desktop\winform\MasterHelper\MasterHelper\obj\Debug\MasterHelper.pdb
+C:\Users\LongVeipe\Desktop\winform\MasterHelper\MasterHelper\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\LongVeipe\Desktop\winform\MasterHelper\MasterHelper\bin\Debug\MaterialSkin.dll
+C:\Users\LongVeipe\Desktop\winform\MasterHelper\MasterHelper\bin\Debug\MetroFramework.dll
+C:\Users\LongVeipe\Desktop\winform\MasterHelper\MasterHelper\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\LongVeipe\Desktop\winform\MasterHelper\MasterHelper\obj\Debug\MasterHelper.FormMain.resources
+C:\Users\LongVeipe\Desktop\winform\MasterHelper\MasterHelper\bin\Debug\Guna.UI2.dll
